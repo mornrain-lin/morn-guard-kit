@@ -1,0 +1,67 @@
+{
+    "name": "mornrain/morn-guard-kit",
+    "description": "WordPress 请求防护与安全头工具集：nonce/CSRF/限流/CSP/输入清洗/可信代理 IP 解析。零外部依赖，PHP 7.4+。",
+    "type": "library",
+    "keywords": [
+        "wordpress",
+        "security",
+        "nonce",
+        "csrf",
+        "csp",
+        "rate-limit",
+        "sanitizer",
+        "ip-resolver",
+        "xss",
+        "hsts",
+        "input-validation"
+    ],
+    "homepage": "https://github.com/MornRain/morn-guard-kit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MornRain",
+            "homepage": "https://github.com/MornRain",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MornRain/morn-guard-kit/issues",
+        "source": "https://github.com/MornRain/morn-guard-kit",
+        "security": "https://github.com/MornRain/morn-guard-kit/security/advisories/new",
+        "docs": "https://github.com/MornRain/morn-guard-kit#readme"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MornRain\\GuardKit\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MornRain\\GuardKit\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "@php tests/run-tests.php",
+        "lint": "@php -l src/Compat.php && @php -l src/IpResolver.php && @php -l src/RequestGuard.php && @php -l src/Sanitizer.php && @php -l src/SecurityHeaders.php && @php -l src/functions.php",
+        "test:phpunit": "phpunit",
+        "lint:style": "phpcs",
+        "demo": "@php examples/demo.php"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    }
+}
