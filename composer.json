@@ -1,5 +1,5 @@
 {
-    "name": "mornrain/morn-guard-kit",
+    "name": "mornrain-lin/morn-guard-kit",
     "description": "WordPress 请求防护与安全头工具集：nonce/CSRF/限流/CSP/输入清洗/可信代理 IP 解析。零外部依赖，PHP 7.4+。",
     "type": "library",
     "keywords": [
@@ -15,20 +15,20 @@
         "hsts",
         "input-validation"
     ],
-    "homepage": "https://github.com/MornRain/morn-guard-kit",
+    "homepage": "https://github.com/mornrain-lin/morn-guard-kit",
     "license": "MIT",
     "authors": [
         {
-            "name": "MornRain",
-            "homepage": "https://github.com/MornRain",
+            "name": "mornrain-lin",
+            "homepage": "https://github.com/mornrain-lin",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/MornRain/morn-guard-kit/issues",
-        "source": "https://github.com/MornRain/morn-guard-kit",
-        "security": "https://github.com/MornRain/morn-guard-kit/security/advisories/new",
-        "docs": "https://github.com/MornRain/morn-guard-kit#readme"
+        "issues": "https://github.com/mornrain-lin/morn-guard-kit/issues",
+        "source": "https://github.com/mornrain-lin/morn-guard-kit",
+        "security": "https://github.com/mornrain-lin/morn-guard-kit/security/advisories/new",
+        "docs": "https://github.com/mornrain-lin/morn-guard-kit#readme"
     },
     "require": {
         "php": ">=7.4"

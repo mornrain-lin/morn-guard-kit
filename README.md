@@ -37,7 +37,7 @@ MornRain Guard Kit 把它们收敛为一个**零依赖、可单测、可在 Word
 ## 安装
 
 ```bash
-composer require mornrain/morn-guard-kit
+composer require mornrain-lin/morn-guard-kit
 ```
 
 或手动引入（无 Composer 环境）：
@@ -384,7 +384,7 @@ composer lint:style    # PSR-12 代码风格
 
 ## License
 
-MIT License — Copyright (c) 2026 MornRain
+MIT License — Copyright (c) 2026 mornrain-lin
 
 详见 [LICENSE](LICENSE)。
 

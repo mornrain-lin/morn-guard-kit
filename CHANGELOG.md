@@ -85,4 +85,4 @@
 - `src/functions.php`：14 个 `morn_guard_*` / `morn_sanitize_*` 便捷函数
 - `examples/demo.php`：9 个场景的可运行示例
 
-[1.0.0]: https://github.com/MornRain/morn-guard-kit/releases/tag/v1.0.0
+[1.0.0]: https://github.com/mornrain-lin/morn-guard-kit/releases/tag/v1.0.0
